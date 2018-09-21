@@ -295,9 +295,9 @@ object {
 
 /* ====================== My Styles ====================== */
 div.seperator {
-  height: 30px;
+  height: 20px;
   width: 100%;
-  background-color: blue;
+  background: linear-gradient(#7f7f7f, #3e65c9);
 }
 
 div.site-logo {
@@ -306,7 +306,7 @@ div.site-logo {
   grid-template-rows: auto;
   grid-template-areas: ". logo .";
   text-align: center;
-  height: 50px;
+  background-color: #515151;
 }
 
 div.site-logo h1 {
@@ -315,6 +315,7 @@ div.site-logo h1 {
 
 ul#primary-menu.menu {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   text-align: center;
   background-color: slateblue;
@@ -323,4 +324,30 @@ ul#primary-menu.menu {
 ul#primary-menu.menu li {
   display:inline-block;
   grid-area: nav;
+}
+
+.home-header-image {
+  width: 100%;
+}
+
+div.product-icons {
+  ul {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 30%;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      padding: 5px 0 5px 0;
+      img {
+        border: 1px solid black;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+      }
+    }
+  }
 }
