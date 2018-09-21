@@ -42,6 +42,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -289,3 +294,33 @@ object {
 
 
 /* ====================== My Styles ====================== */
+div.seperator {
+  height: 30px;
+  width: 100%;
+  background-color: blue;
+}
+
+div.site-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: ". logo .";
+  text-align: center;
+  height: 50px;
+}
+
+div.site-logo h1 {
+  grid-area: logo;
+}
+
+ul#primary-menu.menu {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  background-color: slateblue;
+}
+
+ul#primary-menu.menu li {
+  display:inline-block;
+  grid-area: nav;
+}
