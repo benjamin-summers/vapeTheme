@@ -15,6 +15,13 @@ the_post_thumbnail(full, ['class' => 'home-header-image']);
 
 <div class="seperator"></div>
 
-<?php get_sidebar(); ?>
+<div class="home-shop-section">
+    <div>
+        <?php woocommerce_content(); ?>
+    </div>
+    <div>
+        <?php get_sidebar(); ?>
+    </div>
+</div>
 
 
