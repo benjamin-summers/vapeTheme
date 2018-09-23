@@ -347,4 +347,22 @@ div.product-icons ul li img {
   border-radius: 50%;
 }
 
+div.home-shop-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+ul.social-sidebar-icons {
+  width: 100%;
+  list-style-type: none;
+}
+ul.social-sidebar-icons li {
+  display: block;
+}
+ul.social-sidebar-icons li img {
+  height: 100px;
+  width: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */
