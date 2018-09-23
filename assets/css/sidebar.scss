@@ -1,11 +1,17 @@
 ul.social-sidebar-icons {
   width: 100%;
   list-style-type: none;
+  text-align: center;
+  padding: 0;
   li {
-    display: block;
+    display: inline-block;
     img {
       height: 100px;
       width: 100px;
     }
   }
+}
+
+aside#secondary.widget-area {
+  border: 1px solid black;
 }

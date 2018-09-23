@@ -1,0 +1,31 @@
+div.seperator {
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(#7f7f7f, #3e65c9);
+}
+
+div.site-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: ". logo .";
+  text-align: center;
+  background-color: #515151;
+}
+
+div.site-logo h1 {
+  grid-area: logo;
+}
+
+ul#primary-menu.menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  background-color: slateblue;
+}
+
+ul#primary-menu.menu li {
+  display:inline-block;
+  grid-area: nav;
+}

@@ -41,6 +41,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+
 html, body {
   margin: 0;
   padding: 0;
@@ -56,13 +57,14 @@ html, body {
   .menu-toggle {
     display: none;
   }
-
   .main-navigation ul {
     display: block;
   }
 }
-.site-main .comment-navigation, .site-main .posts-navigation,
-.site-main .post-navigation {
+
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
@@ -96,8 +98,7 @@ html, body {
   padding: 0;
   position: absolute !important;
   width: 1px;
-  word-wrap: normal !important;
-  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
 .screen-reader-text:focus {
@@ -126,6 +127,7 @@ html, body {
 #content[tabindex="-1"]:focus {
   outline: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Widgets
@@ -226,7 +228,7 @@ object {
   max-width: 100%;
 }
 
-.wp-caption img[class*=wp-image-] {
+.wp-caption img[class*="wp-image-"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -290,101 +292,3 @@ object {
   display: block;
 }
 
-/* ====================== My Styles ====================== */
-div.seperator {
-  height: 20px;
-  width: 100%;
-  background: linear-gradient(#7f7f7f, #3e65c9);
-}
-
-div.site-logo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: ". logo .";
-  text-align: center;
-  background-color: #515151;
-}
-
-div.site-logo h1 {
-  grid-area: logo;
-}
-
-ul#primary-menu.menu {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  text-align: center;
-  background-color: slateblue;
-}
-
-ul#primary-menu.menu li {
-  display: inline-block;
-  grid-area: nav;
-}
-
-.home-header-image {
-  width: 100%;
-}
-
-div.seperator-two {
-  height: 20px;
-  width: 100%;
-  background: linear-gradient(#7f7f7f, #3e65c9);
-}
-
-div.product-icons ul {
-  margin: 15px 0 0 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-div.product-icons ul li {
-  display: inline-block;
-  width: 30%;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding: 5px 0 5px 0;
-}
-div.product-icons ul li img {
-  border: 1px solid black;
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-}
-
-div.home-shop-section {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "sidebar shop shop";
-}
-div.home-shop-section div:nth-child(1) {
-  grid-area: sidebar;
-  width: 100%;
-}
-div.home-shop-section div:nth-child(2) {
-  grid-area: shop;
-  width: 100%;
-}
-
-ul.social-sidebar-icons {
-  width: 100%;
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-}
-ul.social-sidebar-icons li {
-  display: inline-block;
-}
-ul.social-sidebar-icons li img {
-  height: 100px;
-  width: 100px;
-}
-
-aside#secondary.widget-area {
-  border: 1px solid black;
-}
-
-/*# sourceMappingURL=style.css.map */

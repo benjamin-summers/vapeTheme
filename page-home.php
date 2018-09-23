@@ -13,14 +13,14 @@ the_post_thumbnail(full, ['class' => 'home-header-image']);
     </ul>
 </div>
 
-<div class="seperator"></div>
+<div class="seperator-two"></div>
 
 <div class="home-shop-section">
     <div>
         <?php get_sidebar(); ?>
     </div>
     <div>
-        <?php echo do_shortcode( '[products limit="4" columns="4" orderby="popularity" class="quick-sale" on_sale="true" ]' ); ?>
+        <?php echo do_shortcode( '[products limit="20" columns="4" orderby="popularity" class="quick-sale" on_sale="true" ]' ); ?>
     </div>
 </div>
 
