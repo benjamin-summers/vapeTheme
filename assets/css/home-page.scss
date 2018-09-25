@@ -1,49 +1,115 @@
-.home-header-image {
-  width: 100%;
+.home-header-image.wp-post-image {
+    width: 100%;
+    height: 300px;
 }
 
 div.seperator-two {
-  height: 20px;
-  width: 100%;
-  background: linear-gradient(#7f7f7f, #3e65c9);
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(#7f7f7f, #3e65c9);
 }
 
 div.product-icons {
-  ul {
-    margin: 15px 0 0 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-    li {
-      display: inline-block;
-      width: 30%;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      padding: 5px 0 5px 0;
-      img {
-        border: 1px solid black;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-      }
+    ul {
+        margin: 15px 0 15px 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
     }
-  }
+}
+
+div.product-icons ul > li {
+    display: inline-block;
+    height: 90px;
+    width: 30%;
+    border-radius: 50%;
+    border: 1px solid #bcbcbc;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.product-icons ul > li:nth-child(1) {
+    background-image: url('https://cdn3.volusion.com/teyrs.mvkvr/v/vspfiles/photos/SMOK-GPRIV-2-MOD-2.jpg?1512226436');
+}
+
+div.product-icons ul > li:nth-child(2) {
+    background-image: url('https://cdn3.volusion.com/myrsg.dceqt/v/vspfiles/photos/SMOKPR-14.jpg?1535104421');
+}
+
+div.product-icons ul > li:nth-child(3) {
+    background-image: url('https://vapesocietysupplies.com/wp-content/uploads/2016/10/Sugar_Drizzle_by_Cuttwood_120ml_452d0543-23f0-4207-bf51-908bcac1253f_1024x1024.jpg');
+}
+
+div.product-icons ul > li > p {
+    visibility: hidden;
+}
+
+div.product-icons ul > li:hover {
+    background-color: black;
+
+    p {
+        visibility: inherit;
+    }
 }
 
 div.home-shop-section {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "sidebar shop shop";
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "shop shop shop"
+        "sidebar sidebar sidebar";
 
-  div:nth-child(1) {
-    grid-area: sidebar;
-    width: 100%;
-  }
+    div:nth-child(1) {
+        grid-area: sidebar;
+        width: 100%;
+    }
 
-  div:nth-child(2) {
-    grid-area: shop;
-    width: 100%;
-  }
+    div:nth-child(2) {
+        grid-area: shop;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .home-header-image.wp-post-image {
+        height: 500px;
+    }
+
+    div.product-icons ul > li {
+        display: inline-block;
+        height: 150px;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .home-header-image.wp-post-image {
+        height: 600px;
+    }
+
+    div.product-icons ul > li {
+        display: inline-block;
+        height: 200px;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1260px) {
+    .home-header-image.wp-post-image {
+        height: 650px;
+    }
+
+    div.product-icons ul > li {
+        display: inline-block;
+        height: 150px;
+        width: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    div.home-shop-section {
+        grid-template-areas: "sidebar shop shop";
+    }
 }

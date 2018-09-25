@@ -13,14 +13,10 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 ?>
 
 <aside id="secondary" class="widget-area">
-    <div class="seperator"></div>
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-    <div>
-        <ul class="social-sidebar-icons">
-            <li><img src="<?php bloginfo('template_url'); ?>/assets/images/facebook-finished.png" /></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/assets/images/instagram-finished.png" /></li>
-            <li><img src="<?php bloginfo('template_url'); ?>/assets/images/twitter-finished.png" /></li>
-        </ul>
-    </div>
-    <div class="seperator"></div>
+    <?php dynamic_sidebar( 'sidebar-1' ); ?>
+    <ul class="social-sidebar-icons">
+        <li><img src="<?php blogInfo('template_directory')?>/assets/images/facebook-finished.png" /></li>
+        <li><img src="<?php blogInfo('template_directory')?>/assets/images/twitter-finished" /></li>
+        <li><img src="<?php blogInfo('template_directory')?>/assets/images/instagram-finished" /></li>
+    </ul>
 </aside><!-- #secondary -->
