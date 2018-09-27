@@ -291,6 +291,12 @@ object {
 }
 
 /* ====================== My Styles ====================== */
+header#masthead.site-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
 div.seperator {
   height: 20px;
   width: 100%;
@@ -516,6 +522,45 @@ div.home-shop-section div:nth-child(2) {
     height: 31px !important;
   }
 }
+/* Post Title */
+.xoo-qv-main .product h1 {
+  text-align: center;
+  border-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 0px 0px 33px 1px #6d6d6d inset;
+}
+
+/* Price */
+.xoo-qv-main .product .price {
+  text-align: center;
+  color: #2e7c07 !important;
+}
+
+/* Paragraph */
+.xoo-qv-summary .woocommerce-product-details__short-description p {
+  text-align: center;
+  box-shadow: 0px 0px 14px 1px #000000;
+}
+
+/* Form Division */
+.xoo-qv-main .product form {
+  text-align: left;
+}
+
+/* Product meta */
+.xoo-qv-main .product .product_meta {
+  text-align: center;
+}
+
+/* Qv plink */
+.xoo-qv-main .product .xoo-qv-plink {
+  text-align: center;
+  width: 100%;
+}
+
 ul.social-sidebar-icons {
   width: 100%;
   list-style-type: none;
@@ -599,6 +644,53 @@ aside#secondary.widget-area section#woocommerce_widget_cart-4.widget.woocommerce
 #secondary {
   border-width: 2px;
   border-style: solid !important;
+}
+
+#page #content .home-shop-section div #secondary .widget h2 {
+  text-decoration: underline !important;
+}
+
+/* Total */
+#secondary .widget .total {
+  text-align: center;
+  border-width: 3px;
+  box-shadow: 0px 0px 29px -1px #000000 inset;
+  color: #2d2929;
+}
+
+/* Buttons */
+#secondary .widget .buttons {
+  text-align: center;
+  font-family: "Alegreya SC", serif;
+  color: #0c0c0c;
+  font-size: 17px;
+}
+
+/* Social sidebar icons */
+#secondary .social-sidebar-icons {
+  word-spacing: 20px;
+  letter-spacing: 10px;
+  font-size: 16px;
+  box-shadow: -14px 0px 25px 4px #5e5e5e;
+}
+
+#page #content .home-shop-section div #secondary .social-sidebar-icons {
+  line-height: 0normal !important;
+}
+
+/* Heading */
+#secondary div h5 {
+  text-align: center;
+  font-size: 15px;
+}
+
+#page #content .home-shop-section div #secondary div h5 {
+  text-decoration: underline !important;
+}
+
+/* Widget Title */
+#secondary .widget h2 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

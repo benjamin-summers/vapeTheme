@@ -30,6 +30,8 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<script src="assets/js/float-panel.js"></script>
+
 <?php wp_footer(); ?>
 
 </body>

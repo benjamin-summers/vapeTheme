@@ -17,6 +17,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(window).on('scroll', function () {
+            if($(window).scrollTop()) {
+                $('header#masthead.site-header').addClass('black');
+            }
+        })
+    </script>
 	<?php wp_head(); ?>
 </head>
 

@@ -58,3 +58,42 @@
   }
 
 }
+
+/* Post Title */
+.xoo-qv-main .product h1{
+  text-align:center;
+  border-width:0px;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  border-bottom-right-radius:50px;
+  border-bottom-left-radius:50px;
+  box-shadow:0px 0px 33px 1px #6d6d6d inset;
+}
+
+/* Price */
+.xoo-qv-main .product .price{
+  text-align:center;
+  color:#2e7c07 !important;
+}
+
+/* Paragraph */
+.xoo-qv-summary .woocommerce-product-details__short-description p{
+  text-align:center;
+  box-shadow:0px 0px 14px 1px #000000;
+}
+
+/* Form Division */
+.xoo-qv-main .product form{
+  text-align:left;
+}
+
+/* Product meta */
+.xoo-qv-main .product .product_meta{
+  text-align:center;
+}
+
+/* Qv plink */
+.xoo-qv-main .product .xoo-qv-plink{
+  text-align:center;
+  width:100%;
+}
