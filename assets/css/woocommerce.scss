@@ -1,0 +1,60 @@
+/* Qv button */
+.products .product .xoo-qv-button{
+  box-shadow:0px 0px 21px 1px #848484 inset;
+}
+
+/* Heading */
+.products .product h2{
+  text-align:center;
+  font-family:'Abel', sans-serif;
+  font-size:19px !important;
+  text-shadow:rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
+  font-weight:500;
+  color:#363639;
+}
+
+/* Price */
+.products .product .price{
+  text-align:center;
+  font-size:17px !important;
+}
+
+#page #content .home-shop-section div .quick-sale .products .product .add_to_cart_button{
+  width:70% !important;
+  margin-left:12.5% !important;
+}
+
+/* Button */
+.products .product .add_to_cart_button{
+  margin-top:1px !important;
+  text-align:center;
+  text-shadow:rgb(0, 0, 0) 0px 1px 1px, rgb(0, 0, 0) 0px -1px 1px, rgb(0, 0, 0) 1px 0px 1px, rgb(0, 0, 0) -1px 0px 1px;
+  color:#ffffff;
+  font-family:'Alegreya Sans SC', sans-serif;
+  font-size:15px;
+  word-spacing:2.1px;
+}
+
+/* Forward */
+.products .product .wc-forward{
+  width:100%;
+  text-align:center;
+}
+
+#page #content .home-shop-section div .quick-sale .products .product .wc-forward{
+  width:100 !important;
+}
+
+/* 1260px and above screen sizes */
+@media only screen and (min-width:1260px){
+
+  /* Thumbnail Image */
+  .products .product .wp-post-image{
+    height:294px !important;
+  }
+
+  .woocommerce-mini-cart a .wp-post-image{
+    height:31px !important;
+  }
+
+}

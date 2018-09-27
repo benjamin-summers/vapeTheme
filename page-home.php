@@ -1,6 +1,6 @@
 <?php get_header();
 
-the_post_thumbnail(full, ['class' => 'home-header-image']);
+the_post_thumbnail('full', ['class' => 'home-header-image']);
 
 ?>
 

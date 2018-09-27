@@ -327,6 +327,30 @@ ul#primary-menu.menu li a {
   text-decoration: none;
 }
 
+.bt_bb_image span img {
+  margin-bottom: 187px;
+}
+
+/* Menu */
+#primary-menu {
+  font-family: "Akronim", display;
+  background-color: #ffffff !important;
+  font-size: 30px;
+  word-spacing: 20px;
+}
+
+/* Link */
+#primary-menu .menu-item a {
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+}
+
+/* 1260px and above screen sizes */
+@media only screen and (min-width: 1260px) {
+  /* Post images */
+  #content .wp-post-image {
+    height: 449px;
+  }
+}
 .home-header-image.wp-post-image {
   width: 100%;
   height: 300px;
@@ -434,6 +458,64 @@ div.home-shop-section div:nth-child(2) {
     grid-template-areas: "sidebar shop shop";
   }
 }
+/* Qv button */
+.products .product .xoo-qv-button {
+  box-shadow: 0px 0px 21px 1px #848484 inset;
+}
+
+/* Heading */
+.products .product h2 {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 19px !important;
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+  font-weight: 500;
+  color: #363639;
+}
+
+/* Price */
+.products .product .price {
+  text-align: center;
+  font-size: 17px !important;
+}
+
+#page #content .home-shop-section div .quick-sale .products .product .add_to_cart_button {
+  width: 70% !important;
+  margin-left: 12.5% !important;
+}
+
+/* Button */
+.products .product .add_to_cart_button {
+  margin-top: 1px !important;
+  text-align: center;
+  text-shadow: black 0px 1px 1px, black 0px -1px 1px, black 1px 0px 1px, black -1px 0px 1px;
+  color: #ffffff;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 15px;
+  word-spacing: 2.1px;
+}
+
+/* Forward */
+.products .product .wc-forward {
+  width: 100%;
+  text-align: center;
+}
+
+#page #content .home-shop-section div .quick-sale .products .product .wc-forward {
+  width: 100 !important;
+}
+
+/* 1260px and above screen sizes */
+@media only screen and (min-width: 1260px) {
+  /* Thumbnail Image */
+  .products .product .wp-post-image {
+    height: 294px !important;
+  }
+
+  .woocommerce-mini-cart a .wp-post-image {
+    height: 31px !important;
+  }
+}
 ul.social-sidebar-icons {
   width: 100%;
   list-style-type: none;
@@ -504,6 +586,19 @@ aside#secondary.widget-area section#woocommerce_widget_cart-4.widget.woocommerce
   border: 1px solid #686868;
   width: 50%;
   margin: 0 0 0 25%;
+}
+
+/* Form Division */
+#secondary .widget form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: -5px 0px 14px 2px #000000;
+}
+
+/* Secondary */
+#secondary {
+  border-width: 2px;
+  border-style: solid !important;
 }
 
 /*# sourceMappingURL=style.css.map */

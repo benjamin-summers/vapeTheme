@@ -28,9 +28,37 @@ ul#primary-menu.menu {
 ul#primary-menu.menu li {
     display: inline-block;
     grid-area: nav;
-
     a {
         color: black;
         text-decoration: none;
     }
+}
+
+.bt_bb_image span img{
+    margin-bottom:187px;
+
+}
+
+/* Menu */
+#primary-menu{
+    font-family:'Akronim', display;
+    background-color:#ffffff !important;
+    font-size:30px;
+    word-spacing:20px;
+}
+
+/* Link */
+#primary-menu .menu-item a{
+    text-shadow:rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
+}
+
+
+/* 1260px and above screen sizes */
+@media only screen and (min-width:1260px){
+
+    /* Post images */
+    #content .wp-post-image{
+        height:449px;
+    }
+
 }
