@@ -5,8 +5,6 @@ header#masthead.site-header {
     transition: .5s;
 }
 
-
-
 div.seperator {
     height: 20px;
     width: 100%;
@@ -20,10 +18,12 @@ div.site-logo {
     grid-template-areas: ". logo .";
     text-align: center;
     background-color: #515151;
+    transition: all 0.5s ease;
+    animation: increaseHeight 3s forwards;
 }
 
-div.site-logo h1 {
-    grid-area: logo;
+div.sticky-logo h1.logo {
+    display: none;
 }
 
 ul#primary-menu.menu {
@@ -67,7 +67,12 @@ ul#primary-menu.menu li {
 
     /* Post images */
     #content .wp-post-image{
-        height:449px;
+        height:609px;
     }
 
+}
+
+@keyframes increaseHeight {
+    0% { height: 50px }
+    100% { height: 75px }
 }

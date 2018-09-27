@@ -21,7 +21,12 @@
     <script>
         $(window).on('scroll', function () {
             if($(window).scrollTop()) {
-                $('header#masthead.site-header').addClass('black');
+                $('div.sticky-logo').addClass('site-logo');
+                $('h1.logo').css('display', 'inherit');
+                $('h1.logo').css('grid-area', 'logo');
+            } else {
+                $('div.sticky-logo').removeClass('site-logo');
+                $('div.sticky-logo h1.logo').css('display', 'none');
             }
         })
     </script>
@@ -35,8 +40,8 @@
 	<header id="masthead" class="site-header">
 		<nav id="site-navigation" class="main-navigation">
             <div class="seperator"></div>
-            <div class="site-logo">
-                <h1>Site Logo</h1>
+            <div class="sticky-logo">
+                <h1 class="logo">Site Logo</h1>
             </div>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'vape-theme' ); ?></button>
 			<?php

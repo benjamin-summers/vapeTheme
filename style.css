@@ -295,6 +295,7 @@ header#masthead.site-header {
   position: fixed;
   width: 100%;
   z-index: 1000;
+  transition: 0.5s;
 }
 
 div.seperator {
@@ -310,10 +311,12 @@ div.site-logo {
   grid-template-areas: ". logo .";
   text-align: center;
   background-color: #515151;
+  transition: all 0.5s ease;
+  animation: increaseHeight 3s forwards;
 }
 
-div.site-logo h1 {
-  grid-area: logo;
+div.sticky-logo h1.logo {
+  display: none;
 }
 
 ul#primary-menu.menu {
@@ -354,7 +357,15 @@ ul#primary-menu.menu li a {
 @media only screen and (min-width: 1260px) {
   /* Post images */
   #content .wp-post-image {
-    height: 449px;
+    height: 609px;
+  }
+}
+@keyframes increaseHeight {
+  0% {
+    height: 50px;
+  }
+  100% {
+    height: 75px;
   }
 }
 .home-header-image.wp-post-image {
