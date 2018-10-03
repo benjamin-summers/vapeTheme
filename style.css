@@ -311,12 +311,16 @@ div.site-logo {
   grid-template-areas: ". logo .";
   text-align: center;
   background-color: #515151;
-  transition: all 0.5s ease;
-  animation: increaseHeight 3s forwards;
+  animation: increaseHeight 2s forwards;
 }
 
-div.sticky-logo h1.logo {
+.sticky-logo ul.logo {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
   display: none;
+  text-align: center;
+  animation: logoOpacity 9s forwards;
 }
 
 ul#primary-menu.menu {
@@ -324,7 +328,6 @@ ul#primary-menu.menu {
   margin: 0;
   list-style-type: none;
   text-align: center;
-  background-color: slateblue;
 }
 
 ul#primary-menu.menu li {
@@ -353,11 +356,29 @@ ul#primary-menu.menu li a {
   text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
 }
 
+/* Site logo */
+#site-navigation .site-logo {
+  background-color: #e8e8e8;
+}
+
+/* Menu */
+#primary-menu {
+  box-shadow: 0px 0px 9px 1px #000000;
+}
+
 /* 1260px and above screen sizes */
 @media only screen and (min-width: 1260px) {
   /* Post images */
   #content .wp-post-image {
     height: 609px;
+  }
+}
+@keyframes logoOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @keyframes increaseHeight {
@@ -415,8 +436,10 @@ div.product-icons ul > li > p {
 
 div.product-icons ul > li:hover {
   background-color: black;
+  background-image: none;
 }
 div.product-icons ul > li:hover p {
+  color: white;
   visibility: inherit;
 }
 

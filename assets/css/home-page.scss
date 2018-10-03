@@ -47,8 +47,9 @@ div.product-icons ul > li > p {
 
 div.product-icons ul > li:hover {
     background-color: black;
-
+    background-image: none;
     p {
+        color: white;
         visibility: inherit;
     }
 }
