@@ -14,17 +14,17 @@
 </div><!-- #content -->
 <footer>
     <div id="footer-title">
-        <h3>Footer Title</h3>
+        <h3>Vape The Rainbow</h3>
     </div>
     <div id="footer-icons">
         <ul>
-            <li><i class="fa fa-facebook fa-2x"></i></li>
-            <li><i class="fa fa-facebook fa-2x"></i></li>
-            <li><i class="fa fa-facebook fa-2x"></i></li>
+            <li><i class="fa fa-facebook-square fa-2x"></i></li>
+            <li><i class="fa fa-instagram fa-2x"></i></li>
+            <li><i class="fa fa-twitter-square fa-2x"></i></li>
         </ul>
     </div>
     <div id="author-credit">
-        <h6>Site Developed By Atero Marketing Group</h6>
+        <h6>Theme Developed By Atero Marketing Group</h6>
     </div>
 </footer>
 </div><!-- #page -->

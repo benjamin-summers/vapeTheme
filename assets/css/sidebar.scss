@@ -8,15 +8,16 @@ ul.social-sidebar-icons {
         display: inline-block;
 
         img {
-            height: 100px;
-            width: 100px;
+            height: 70px;
+            width: 70px;
         }
     }
 }
 
-aside#secondary.widget-area {
-    border: none;
-    width: 90%;
+/* Secondary */
+#secondary{
+    width:99% !important;
+
 }
 
 aside#secondary.widget-area form {

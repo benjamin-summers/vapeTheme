@@ -16,9 +16,9 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
     <?php dynamic_sidebar( 'sidebar-1' ); ?>
     <hr>
     <ul class="social-sidebar-icons">
-        <li><img src="<?php blogInfo('template_directory')?>/assets/images/facebook-finished.png" /></li>
-        <li><img src="<?php blogInfo('template_directory')?>/assets/images/twitter-finished" /></li>
-        <li><img src="<?php blogInfo('template_directory')?>/assets/images/instagram-finished" /></li>
+        <li><img src="<?php blogInfo('template_directory')?>/assets/images/facebook-logo-finished.png" /></li>
+        <li><img src="<?php blogInfo('template_directory')?>/assets/images/instagram-logo-finished.png" /></li>
+        <li><img src="<?php blogInfo('template_directory')?>/assets/images/twitter-logo-finished.png" /></li>
     </ul>
     <hr>
     <div>

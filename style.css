@@ -391,7 +391,7 @@ ul#primary-menu.menu li a {
 }
 .home-header-image.wp-post-image {
   width: 100%;
-  height: 300px;
+  height: 250px;
 }
 
 div.seperator-two {
@@ -416,6 +416,12 @@ div.product-icons ul > li {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0px 0px 49px 3px #3d3d3d inset;
+  font-size: 22px;
+  font-family: "Allura", handwriting;
+  font-weight: 600;
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+  color: #686868;
 }
 
 div.product-icons ul > li:nth-child(1) {
@@ -435,11 +441,11 @@ div.product-icons ul > li > p {
 }
 
 div.product-icons ul > li:hover {
-  background-color: black;
+  background-color: white;
   background-image: none;
 }
 div.product-icons ul > li:hover p {
-  color: white;
+  color: black;
   visibility: inherit;
 }
 
@@ -605,13 +611,13 @@ ul.social-sidebar-icons li {
   display: inline-block;
 }
 ul.social-sidebar-icons li img {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
 }
 
-aside#secondary.widget-area {
-  border: none;
-  width: 90%;
+/* Secondary */
+#secondary {
+  width: 99% !important;
 }
 
 aside#secondary.widget-area form {
@@ -725,6 +731,65 @@ aside#secondary.widget-area section#woocommerce_widget_cart-4.widget.woocommerce
 /* Widget Title */
 #secondary .widget h2 {
   text-align: center;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "title title title" "icons icons icons" "credit credit credit";
+}
+
+div#footer-title {
+  grid-area: title;
+}
+
+div#footer-icons {
+  grid-area: icons;
+}
+div#footer-icons ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+div#footer-icons ul li {
+  display: inline-block;
+}
+
+div#author-credit {
+  grid-area: credit;
+}
+
+/* Footer */
+#page footer {
+  background-color: #f4f4f4;
+}
+
+/* Heading */
+#footer-title h3 {
+  font-family: "Akronim", display;
+  font-size: 25px;
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+  font-weight: 500;
+  color: #0c0c0c;
+}
+
+/* Font Icon */
+#footer-icons ul .fa {
+  color: #91ddbd;
+  text-shadow: white 0px 0px 2px, white 0px 0px 4px, white 0px 0px 6px, #76dfff 0px 0px 8px, fuchsia 0px 0px 12px, fuchsia 0px 0px 16px, fuchsia 0px 0px 20px, fuchsia 0px 0px 24px;
+  word-spacing: 0px;
+  margin-top: -10px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+/* Heading */
+#author-credit h6 {
+  color: #208aca;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */
