@@ -1,63 +1,64 @@
 footer {
-  width: 100%;
-  text-align: center;
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "title title title"
-  "icons icons icons"
-  "credit credit credit"
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "title title title"
+        "icons icons icons"
+        "credit credit credit"
 }
 
 div#footer-title {
-  grid-area: title;
+    grid-area: title;
 }
 
 div#footer-icons {
-  grid-area: icons;
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    li {
-      display: inline-block;
+    grid-area: icons;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: inline-block;
+        }
     }
-  }
 }
 
 div#author-credit {
-  grid-area: credit;
+    grid-area: credit;
 }
 
 
 /* Footer */
-#page footer{
-  background-color:#f4f4f4;
+#page footer {
+    background-color: #f4f4f4;
 }
 
 /* Heading */
-#footer-title h3{
-  font-family:'Akronim', display;
-  font-size:25px;
-  text-shadow:rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
-  font-weight:500;
-  color:#0c0c0c;
+#footer-title h3 {
+    font-family: 'Akronim', display;
+    font-size: 25px;
+    text-shadow: rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
+    font-weight: 500;
+    color: #0c0c0c;
 }
 
 /* Font Icon */
-#footer-icons ul .fa{
-  color:#91ddbd;
-  text-shadow:rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 255, 255) 0px 0px 6px, rgb(118, 223, 255) 0px 0px 8px, rgb(255, 0, 255) 0px 0px 12px, rgb(255, 0, 255) 0px 0px 16px, rgb(255, 0, 255) 0px 0px 20px, rgb(255, 0, 255) 0px 0px 24px;
-  word-spacing:0px;
-  margin-top:-10px;
-  margin-right:25px;
-  margin-left:25px;
+#footer-icons ul .fa {
+    color: #91ddbd;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px, rgb(255, 255, 255) 0px 0px 6px, rgb(118, 223, 255) 0px 0px 8px, rgb(255, 0, 255) 0px 0px 12px, rgb(255, 0, 255) 0px 0px 16px, rgb(255, 0, 255) 0px 0px 20px, rgb(255, 0, 255) 0px 0px 24px;
+    word-spacing: 0px;
+    margin-top: -10px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 /* Heading */
-#author-credit h6{
-  color:#208aca;
-  font-size:13px;
+#author-credit h6 {
+    color: #208aca;
+    font-size: 13px;
 
 }
-

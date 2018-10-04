@@ -366,6 +366,13 @@ ul#primary-menu.menu li a {
   box-shadow: 0px 0px 9px 1px #000000;
 }
 
+/*mobile menu*/
+/* Image */
+.mob-menu-logo-holder .headertext img {
+  margin-bottom: 0px;
+  margin-top: -50px;
+}
+
 /* 1260px and above screen sizes */
 @media only screen and (min-width: 1260px) {
   /* Post images */
@@ -551,17 +558,6 @@ div.home-shop-section div:nth-child(2) {
   width: 100 !important;
 }
 
-/* 1260px and above screen sizes */
-@media only screen and (min-width: 1260px) {
-  /* Thumbnail Image */
-  .products .product .wp-post-image {
-    height: 294px !important;
-  }
-
-  .woocommerce-mini-cart a .wp-post-image {
-    height: 31px !important;
-  }
-}
 /* Post Title */
 .xoo-qv-main .product h1 {
   text-align: center;
@@ -599,6 +595,13 @@ div.home-shop-section div:nth-child(2) {
 .xoo-qv-main .product .xoo-qv-plink {
   text-align: center;
   width: 100%;
+}
+
+/* Button */
+.products .product .add_to_cart_button {
+  width: 40%;
+  margin-left: 30%;
+  padding: 7px 0;
 }
 
 ul.social-sidebar-icons {
@@ -731,6 +734,53 @@ aside#secondary.widget-area section#woocommerce_widget_cart-4.widget.woocommerce
 /* Widget Title */
 #secondary .widget h2 {
   text-align: center;
+}
+
+/* Menu */
+#menu-sidebar-menu {
+  font-family: "Abril Fatface", display;
+  box-shadow: 0px 0px 4px 0px #000000;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #0c0c0c;
+}
+
+/* Link */
+#menu-sidebar-menu .menu-item a {
+  color: #4ecdc4 !important;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-left-width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Paragraph */
+#secondary .widget p {
+  text-align: center;
+  font-size: 17px;
+}
+
+/* Link */
+.home-shop-section div:nth-child(7) a {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 17px;
+  border-bottom-style: solid;
+  border-bottom-color: #666666;
+  border-bottom-width: 2px;
+  box-shadow: 0px 0px 22px 0px #4869bd;
+  color: #636363;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  cursor: pointer;
+  font-size: 17px;
 }
 
 footer {

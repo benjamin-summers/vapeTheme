@@ -15,8 +15,8 @@ ul.social-sidebar-icons {
 }
 
 /* Secondary */
-#secondary{
-    width:99% !important;
+#secondary {
+    width: 99% !important;
 
 }
 
@@ -106,65 +106,110 @@ aside#secondary.widget-area {
 }
 
 /* Form Division */
-#secondary .widget form{
-    padding-top:20px;
-    padding-bottom:20px;
-    box-shadow:-5px 0px 14px 2px #000000;
+#secondary .widget form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: -5px 0px 14px 2px #000000;
 
 }
 
 /* Secondary */
-#secondary{
-    border-width:2px;
-    border-style:solid !important;
+#secondary {
+    border-width: 2px;
+    border-style: solid !important;
 }
 
-#page #content .home-shop-section div #secondary .widget h2{
-    text-decoration:underline !important;
+#page #content .home-shop-section div #secondary .widget h2 {
+    text-decoration: underline !important;
 }
 
 /* Total */
-#secondary .widget .total{
-    text-align:center;
-    border-width:3px;
-    box-shadow:0px 0px 29px -1px #000000 inset;
-    color:#2d2929;
+#secondary .widget .total {
+    text-align: center;
+    border-width: 3px;
+    box-shadow: 0px 0px 29px -1px #000000 inset;
+    color: #2d2929;
 }
 
 /* Buttons */
-#secondary .widget .buttons{
-    text-align:center;
-    font-family:'Alegreya SC', serif;
-    color:#0c0c0c;
-    font-size:17px;
+#secondary .widget .buttons {
+    text-align: center;
+    font-family: 'Alegreya SC', serif;
+    color: #0c0c0c;
+    font-size: 17px;
 }
 
 /* Social sidebar icons */
-#secondary .social-sidebar-icons{
-    word-spacing:20px;
-    letter-spacing:10px;
-    font-size:16px;
-    box-shadow:-14px 0px 25px 4px #5e5e5e;
+#secondary .social-sidebar-icons {
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    font-size: 16px;
+    box-shadow: -14px 0px 25px 4px #5e5e5e;
 }
 
-#page #content .home-shop-section div #secondary .social-sidebar-icons{
-    line-height:0normal !important;
+#page #content .home-shop-section div #secondary .social-sidebar-icons {
+    line-height: 0normal !important;
 }
 
 /* Heading */
-#secondary div h5{
-    text-align:center;
-    font-size:15px;
+#secondary div h5 {
+    text-align: center;
+    font-size: 15px;
 }
 
-#page #content .home-shop-section div #secondary div h5{
-    text-decoration:underline !important;
+#page #content .home-shop-section div #secondary div h5 {
+    text-decoration: underline !important;
 }
 
 /* Widget Title */
-#secondary .widget h2{
-    text-align:center;
+#secondary .widget h2 {
+    text-align: center;
 
 }
 
+/* Menu */
+#menu-sidebar-menu {
+    font-family: 'Abril Fatface', display;
+    box-shadow: 0px 0px 4px 0px #000000;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #0c0c0c;
+}
 
+/* Link */
+#menu-sidebar-menu .menu-item a {
+    color: #4ecdc4 !important;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Paragraph */
+#secondary .widget p {
+    text-align: center;
+    font-size: 17px;
+}
+
+/* Link */
+.home-shop-section div:nth-child(7) a {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 17px;
+    border-bottom-style: solid;
+    border-bottom-color: #666666;
+    border-bottom-width: 2px;
+    box-shadow: 0px 0px 22px 0px #4869bd;
+    color: #636363;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
