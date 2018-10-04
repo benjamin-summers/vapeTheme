@@ -1,32 +1,15 @@
-<?php get_header();
+<?php get_header(); ?>
 
-the_post_thumbnail('full', ['class' => 'home-header-image']);
-
-?>
-
-
-<div class="product-icons">
-    <ul>
-        <li>
-            <p>Mods</p>
-        </li>
-        <li>
-            <p>Tanks</p>
-        </li>
-        <li>
-            <p>E-Juice</p>
-        </li>
-    </ul>
-</div>
-
-<div class="seperator-two"></div>
-
-<div class="home-shop-section">
-    <div>
-        <?php get_sidebar(); ?>
+<div class="mods-feature-section">
+    <div class="social-icons">
+        <ul>
+            <li><i class="fa fa-facebook fa2x"></i></li>
+            <li><i class="fa fa-facebook fa2x"></i></li>
+            <li><i class="fa fa-facebook fa2x"></i></li>
+        </ul>
     </div>
-    <div>
-        <?php echo do_shortcode( '[products limit="12" columns="3"]' ); ?>
+    <div class="mods-feature-image">
+        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/IMG_1145-2-min.jpg" alt="mods feature image">
     </div>
 </div>
 

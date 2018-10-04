@@ -511,6 +511,36 @@ div.home-shop-section div:nth-child(2) {
     grid-template-areas: "sidebar shop shop";
   }
 }
+div.mods-feature-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas: "social image";
+}
+div.mods-feature-section div.social-icons {
+  grid-area: social;
+}
+div.mods-feature-section div.social-icons ul {
+  text-align: center;
+  margin-top: 65% !important;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+div.mods-feature-section div.social-icons ul li {
+  display: block;
+}
+div.mods-feature-section div.mods-feature-image {
+  grid-area: image;
+}
+
+/* Image */
+#content .mods-feature-section .mods-feature-image img {
+  width: 100%;
+  height: 250px;
+}
+
 /* Qv button */
 .products .product .xoo-qv-button {
   box-shadow: 0px 0px 21px 1px #848484 inset;
