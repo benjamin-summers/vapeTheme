@@ -23,7 +23,13 @@ div.mods-feature-section {
                 display: block;
                 border-radius: 50%;
                 font-size: 25px;
-                background-image: url("wp-content/themes/vape-theme-custom-theme/assets/images/Pearl Iridescence 30.jpg");
+                color: white;
+                background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Pearl-Iridescence-2.jpg");
+
+                i.fa {
+                    text-shadow: rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
+                    box-shadow: 0px 0px 33px 7px #aac7cf;
+                }
             }
 
         }

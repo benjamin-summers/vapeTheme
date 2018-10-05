@@ -1,4 +1,4 @@
-<?php /* Template Name: Mods Page Home */ ?>
+<?php /* Template Name: mods-page-home */ ?>
 <?php get_header(); ?>
 
 <div class="mods-feature-section">
@@ -13,5 +13,10 @@
         <?php the_post_thumbnail('full', ['class' => 'home-header-image']); ?>
     </div>
 </div>
-
-<?php get_footer(); ?>
+<div class="mods-submenu">
+<?php 
+    wp_nav_menu( array(
+        'menu'   => 'mods-submenu',
+    ) );
+ ?>
+</div>
