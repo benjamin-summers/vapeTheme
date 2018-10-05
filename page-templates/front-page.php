@@ -1,4 +1,4 @@
-<?php /* Template Name: Home Page */ ?>
+<?php /* Template Name: Front Page */ ?>
 
 <?php get_header();
 
