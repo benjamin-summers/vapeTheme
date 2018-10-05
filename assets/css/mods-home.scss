@@ -4,9 +4,9 @@ div.mods-feature-section {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto;
     grid-template-areas: ". image"
-                        "social image"
-                        ". image";
-    
+        "social image"
+        ". image";
+
     div.social-icons {
 
         grid-area: social;
@@ -15,12 +15,15 @@ div.mods-feature-section {
             text-align: center;
             list-style-type: none;
             padding: 0;
-            margin: 0;
+            margin: 42px 0 0 0;
 
             li {
+                margin: 2px 7px;
+                padding: 15px;
                 display: block;
-                border: 1px solid black;
                 border-radius: 50%;
+                font-size: 25px;
+                background-image: url("wp-content/themes/vape-theme-custom-theme/assets/images/Pearl Iridescence 30.jpg");
             }
 
         }
@@ -32,7 +35,7 @@ div.mods-feature-section {
 }
 
 /* Image */
-#content .mods-feature-section .mods-feature-image img{
-	width:100%;
-	height:250px;
+#content .mods-feature-section .mods-feature-image img {
+    width: 100%;
+    height: 250px;
 }

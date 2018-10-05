@@ -525,12 +525,15 @@ div.mods-feature-section div.social-icons ul {
   text-align: center;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 42px 0 0 0;
 }
 div.mods-feature-section div.social-icons ul li {
+  margin: 2px 7px;
+  padding: 15px;
   display: block;
-  border: 1px solid black;
   border-radius: 50%;
+  font-size: 25px;
+  background-image: url("wp-content/themes/vape-theme-custom-theme/assets/images/Pearl Iridescence 30.jpg");
 }
 div.mods-feature-section div.mods-feature-image {
   grid-area: image;

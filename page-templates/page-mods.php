@@ -1,3 +1,4 @@
+<?php /* Template Name: Mods Page Home */ ?>
 <?php get_header(); ?>
 
 <div class="mods-feature-section">
@@ -9,7 +10,7 @@
         </ul>
     </div>
     <div class="mods-feature-image">
-        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/IMG_1145-2-min.jpg" alt="mods feature image">
+        <?php the_post_thumbnail('full', ['class' => 'home-header-image']); ?>
     </div>
 </div>
 
