@@ -90,3 +90,17 @@
     margin-left: 30%;
     padding: 7px 0;
 }
+
+/* 1260px and above screen sizes */
+@media only screen and (min-width:1260px) {
+
+    /* Thumbnail Image */
+    .products .product .wp-post-image {
+        height: 295px !important;
+    }
+
+    .woocommerce-mini-cart a .wp-post-image {
+        height: 37px !important;
+    }
+
+}

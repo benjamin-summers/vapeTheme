@@ -41,9 +41,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin-top: -10px;
 }
 
 /* Small menu. */
@@ -61,7 +66,8 @@ html, body {
     display: block;
   }
 }
-.site-main .comment-navigation, .site-main .posts-navigation,
+.site-main .comment-navigation,
+.site-main .posts-navigation,
 .site-main .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
@@ -506,6 +512,9 @@ div.home-shop-section div:nth-child(2) {
     margin-left: 5%;
     margin-right: 5%;
   }
+  div.product-icons ul > li p {
+    font-size: 47px;
+  }
 
   div.home-shop-section {
     grid-template-areas: "sidebar shop shop";
@@ -588,6 +597,79 @@ div.mods-sub-image img {
   height: 170px;
 }
 
+@media only screen and (min-width: 767px) {
+  /* List Item */
+  .social-icons ul li {
+    margin-left: 55px !important;
+    margin-right: 55px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  /* List */
+  .mods-feature-section .social-icons ul {
+    margin-top: 20px !important;
+  }
+
+  /* Image */
+  .mods-feature-section .mods-feature-image img {
+    margin-top: 25px;
+  }
+
+  /* Image */
+  #content .mods-sub-image img {
+    height: 300px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  .mods-feature-section .mods-feature-image img {
+    height: 358px !important;
+  }
+
+  /* Image */
+  .vape-products .temp-image img {
+    height: 157px;
+  }
+
+  /* Image */
+  #content .mods-sub-image img {
+    height: 350px;
+  }
+}
+/* 1260px and above screen sizes */
+@media only screen and (min-width: 1260px) {
+  /* Image */
+  .mods-feature-section .mods-feature-image img {
+    margin-top: 62px;
+    height: 524px !important;
+  }
+
+  /* List Item */
+  .social-icons ul li {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    height: 28px;
+    padding-left: 61px !important;
+    padding-right: 61px !important;
+    padding-top: 61px !important;
+    padding-bottom: 61px !important;
+    font-size: 35px !important;
+  }
+
+  /* Image */
+  .vape-products .temp-image img {
+    height: 200px;
+  }
+
+  /* Image */
+  #content .mods-sub-image img {
+    height: 400px;
+    margin-top: 63px;
+  }
+}
 /* Qv button */
 .products .product .xoo-qv-button {
   box-shadow: 0px 0px 21px 1px #848484 inset;
@@ -681,6 +763,17 @@ div.mods-sub-image img {
   padding: 7px 0;
 }
 
+/* 1260px and above screen sizes */
+@media only screen and (min-width: 1260px) {
+  /* Thumbnail Image */
+  .products .product .wp-post-image {
+    height: 295px !important;
+  }
+
+  .woocommerce-mini-cart a .wp-post-image {
+    height: 37px !important;
+  }
+}
 ul.social-sidebar-icons {
   width: 100%;
   list-style-type: none;

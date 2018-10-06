@@ -27,12 +27,12 @@ div.product-icons ul > li {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow:0px 0px 49px 3px #3d3d3d inset;
+    box-shadow: 0px 0px 49px 3px #3d3d3d inset;
     font-size: 22px;
-    font-family:'Allura', handwriting;
-    font-weight:600;
-    text-shadow:rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
-    color:#686868;
+    font-family: 'Allura', handwriting;
+    font-weight: 600;
+    text-shadow: rgb(255, 255, 255) 1px 1px 0px, rgb(170, 170, 170) 2px 2px 0px;
+    color: #686868;
 }
 
 div.product-icons ul > li:nth-child(1) {
@@ -54,6 +54,7 @@ div.product-icons ul > li > p {
 div.product-icons ul > li:hover {
     background-color: white;
     background-image: none;
+
     p {
         color: black;
         visibility: inherit;
@@ -114,6 +115,10 @@ div.home-shop-section {
         width: 15%;
         margin-left: 5%;
         margin-right: 5%;
+
+        p {
+            font-size: 47px;
+        }
     }
 
     div.home-shop-section {
