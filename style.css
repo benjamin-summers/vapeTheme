@@ -984,8 +984,16 @@ div.mods-sub-image img {
 
 #content img.ejuice-header-image {
   width: 100%;
-  height: 300px;
-  margin-top: 10px;
+  height: 400px;
+  margin-top: 60px;
+}
+
+.slick-track .wpls-fix-box .wp-post-image {
+  height: 121px !important;
+}
+
+#wpls-logo-showcase-slider-1 ul {
+  display: none;
 }
 
 footer {
