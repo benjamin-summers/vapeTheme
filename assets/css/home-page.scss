@@ -121,6 +121,11 @@ div.home-shop-section {
         }
     }
 
+    /* Thumbnail Image */
+    .product_list_widget a img {
+        height: 38px !important;
+    }
+
     div.home-shop-section {
         grid-template-areas: "sidebar shop shop";
     }

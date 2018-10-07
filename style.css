@@ -516,6 +516,11 @@ div.home-shop-section div:nth-child(2) {
     font-size: 47px;
   }
 
+  /* Thumbnail Image */
+  .product_list_widget a img {
+    height: 38px !important;
+  }
+
   div.home-shop-section {
     grid-template-areas: "sidebar shop shop";
   }
