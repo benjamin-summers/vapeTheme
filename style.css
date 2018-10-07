@@ -670,6 +670,30 @@ div.mods-sub-image img {
     margin-top: 63px;
   }
 }
+/*================================================================ TANKS ==================================================================*/
+#menu-tanks-submenu {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Honey-Dew-min.png");
+  background-position-y: 17%;
+}
+#menu-tanks-submenu li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 18px 1px #000000 inset;
+  font-size: 22px;
+  font-family: "Alex Brush", handwriting;
+  font-weight: 500;
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+}
+#menu-tanks-submenu li a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Qv button */
 .products .product .xoo-qv-button {
   box-shadow: 0px 0px 21px 1px #848484 inset;
