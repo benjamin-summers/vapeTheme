@@ -6,7 +6,12 @@
 <div class="ejuice-page">
     <?php echo do_shortcode('[logoshowcase]'); ?>
     <div class="ejuice-page-content">
-        
+        <div class="ejuice-sidebar">
+            <?php get_sidebar('ejuice-sidebar') ?>
+        </div>
+        <div class="ejuice-products">
+        <?php echo do_shortcode( '[products limit="60" columns="3"]' ); ?>
+        </div>
     </div>
 </div>
 

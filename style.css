@@ -984,8 +984,8 @@ div.mods-sub-image img {
 
 #content img.ejuice-header-image {
   width: 100%;
-  height: 400px;
-  margin-top: 60px;
+  height: 300px;
+  margin-top: 20px;
 }
 
 .slick-track .wpls-fix-box .wp-post-image {
@@ -993,7 +993,21 @@ div.mods-sub-image img {
 }
 
 #wpls-logo-showcase-slider-1 ul {
-  display: none;
+  display: none !important;
+}
+
+div.ejuice-page-content {
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "sidebar products products";
+}
+div.ejuice-page-content div.ejuice-sidebar {
+  grid-area: sidebar;
+}
+div.ejuice-page-content div.ejuice-products {
+  grid-area: products;
 }
 
 footer {

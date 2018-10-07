@@ -39,6 +39,8 @@ Elementor
 Beaver Builder ?
 Bold Page Builder
 Yellow Pencil
+Advanced Custom Fields
+Custom Post Types UI
 
 == Changelog ==
 
