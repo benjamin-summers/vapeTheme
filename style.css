@@ -402,6 +402,110 @@ ul#primary-menu.menu li a {
     height: 75px;
   }
 }
+/* Qv button */
+.products .product .xoo-qv-button {
+  box-shadow: 0px 0px 21px 1px #848484 inset;
+}
+
+/* Heading */
+.products .product h2 {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 19px !important;
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+  font-weight: 500;
+  color: #363639;
+}
+
+/* Price */
+.products .product .price {
+  text-align: center;
+  font-size: 17px !important;
+}
+
+#page #content .home-shop-section div .quick-sale .products .product .add_to_cart_button {
+  width: 70% !important;
+  margin-left: 12.5% !important;
+}
+
+/* Button */
+.products .product .add_to_cart_button {
+  margin-top: 1px !important;
+  text-align: center;
+  text-shadow: black 0px 1px 1px, black 0px -1px 1px, black 1px 0px 1px, black -1px 0px 1px;
+  color: #ffffff;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 15px;
+  word-spacing: 2.1px;
+}
+
+/* Forward */
+.products .product .wc-forward {
+  width: 100%;
+  text-align: center;
+}
+
+#page #content .home-shop-section div .quick-sale .products .product .wc-forward {
+  width: 100 !important;
+}
+
+/* Post Title */
+.xoo-qv-main .product h1 {
+  text-align: center;
+  border-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 0px 0px 33px 1px #6d6d6d inset;
+}
+
+/* Price */
+.xoo-qv-main .product .price {
+  text-align: center;
+  color: #2e7c07 !important;
+}
+
+/* Paragraph */
+.xoo-qv-summary .woocommerce-product-details__short-description p {
+  text-align: center;
+  box-shadow: 0px 0px 14px 1px #000000;
+}
+
+/* Form Division */
+.xoo-qv-main .product form {
+  text-align: left;
+}
+
+/* Product meta */
+.xoo-qv-main .product .product_meta {
+  text-align: center;
+}
+
+/* Qv plink */
+.xoo-qv-main .product .xoo-qv-plink {
+  text-align: center;
+  width: 100%;
+}
+
+/* Button */
+.products .product .add_to_cart_button {
+  width: 40%;
+  margin-left: 30%;
+  padding: 7px 0;
+}
+
+/* 1260px and above screen sizes */
+@media only screen and (min-width: 1260px) {
+  /* Thumbnail Image */
+  .products .product .wp-post-image {
+    height: 295px !important;
+  }
+
+  .woocommerce-mini-cart a .wp-post-image {
+    height: 37px !important;
+  }
+}
 .home-header-image.wp-post-image {
   width: 100%;
   height: 250px;
@@ -523,284 +627,6 @@ div.home-shop-section div:nth-child(2) {
 
   div.home-shop-section {
     grid-template-areas: "sidebar shop shop";
-  }
-}
-div.mods-feature-section {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto;
-  grid-template-areas: ". image" "social image" ". image";
-}
-div.mods-feature-section div.social-icons {
-  grid-area: social;
-}
-div.mods-feature-section div.social-icons ul {
-  text-align: center;
-  list-style-type: none;
-  padding: 0;
-  margin: 42px 0 0 0;
-}
-div.mods-feature-section div.social-icons ul li {
-  margin: 2px 7px;
-  padding: 15px;
-  display: block;
-  border-radius: 50%;
-  font-size: 25px;
-  color: white;
-  background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Pearl-Iridescence-2.jpg");
-}
-div.mods-feature-section div.social-icons ul li i.fa {
-  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
-  box-shadow: 0px 0px 33px 7px #aac7cf;
-}
-div.mods-feature-section div.mods-feature-image {
-  grid-area: image;
-}
-
-/* Image */
-#content .mods-feature-section .mods-feature-image img {
-  width: 100%;
-  height: 250px;
-}
-
-#menu-mods-submenu {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Delphinium-min.png");
-  background-position-y: 17%;
-}
-#menu-mods-submenu li {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 5px;
-  box-shadow: 0px 0px 18px 1px #000000 inset;
-  font-size: 22px;
-  font-family: "Alex Brush", handwriting;
-  font-weight: 500;
-  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
-}
-#menu-mods-submenu li a {
-  text-decoration: none;
-  color: black;
-}
-
-div.vape-products {
-  margin-top: 20px;
-}
-
-div.temp-image img {
-  width: 100%;
-  height: 100px;
-  margin-bottom: 10px;
-}
-
-div.mods-sub-image img {
-  width: 100%;
-  height: 170px;
-}
-
-@media only screen and (min-width: 767px) {
-  /* List Item */
-  .social-icons ul li {
-    margin-left: 55px !important;
-    margin-right: 55px !important;
-    padding-left: 30px !important;
-    padding-right: 30px !important;
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
-  }
-
-  /* List */
-  .mods-feature-section .social-icons ul {
-    margin-top: 20px !important;
-  }
-
-  /* Image */
-  .mods-feature-section .mods-feature-image img {
-    margin-top: 25px;
-  }
-
-  /* Image */
-  #content .mods-sub-image img {
-    height: 300px;
-    margin-top: 10px;
-  }
-}
-@media only screen and (min-width: 1023px) {
-  .mods-feature-section .mods-feature-image img {
-    height: 358px !important;
-  }
-
-  /* Image */
-  .vape-products .temp-image img {
-    height: 157px;
-  }
-
-  /* Image */
-  #content .mods-sub-image img {
-    height: 350px;
-  }
-}
-/* 1260px and above screen sizes */
-@media only screen and (min-width: 1260px) {
-  /* Image */
-  .mods-feature-section .mods-feature-image img {
-    margin-top: 62px;
-    height: 524px !important;
-  }
-
-  /* List Item */
-  .social-icons ul li {
-    margin-left: 100px !important;
-    margin-right: 100px !important;
-    height: 28px;
-    padding-left: 61px !important;
-    padding-right: 61px !important;
-    padding-top: 61px !important;
-    padding-bottom: 61px !important;
-    font-size: 35px !important;
-  }
-
-  /* Image */
-  .vape-products .temp-image img {
-    height: 200px;
-  }
-
-  /* Image */
-  #content .mods-sub-image img {
-    height: 400px;
-    margin-top: 63px;
-  }
-}
-/*================================================================ TANKS ==================================================================*/
-#menu-tanks-submenu {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Honey-Dew-min.png");
-  background-position-y: 17%;
-}
-#menu-tanks-submenu li {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 5px;
-  box-shadow: 0px 0px 18px 1px #000000 inset;
-  font-size: 22px;
-  font-family: "Alex Brush", handwriting;
-  font-weight: 500;
-  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
-}
-#menu-tanks-submenu li a {
-  text-decoration: none;
-  color: black;
-}
-
-/* Qv button */
-.products .product .xoo-qv-button {
-  box-shadow: 0px 0px 21px 1px #848484 inset;
-}
-
-/* Heading */
-.products .product h2 {
-  text-align: center;
-  font-family: "Abel", sans-serif;
-  font-size: 19px !important;
-  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
-  font-weight: 500;
-  color: #363639;
-}
-
-/* Price */
-.products .product .price {
-  text-align: center;
-  font-size: 17px !important;
-}
-
-#page #content .home-shop-section div .quick-sale .products .product .add_to_cart_button {
-  width: 70% !important;
-  margin-left: 12.5% !important;
-}
-
-/* Button */
-.products .product .add_to_cart_button {
-  margin-top: 1px !important;
-  text-align: center;
-  text-shadow: black 0px 1px 1px, black 0px -1px 1px, black 1px 0px 1px, black -1px 0px 1px;
-  color: #ffffff;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 15px;
-  word-spacing: 2.1px;
-}
-
-/* Forward */
-.products .product .wc-forward {
-  width: 100%;
-  text-align: center;
-}
-
-#page #content .home-shop-section div .quick-sale .products .product .wc-forward {
-  width: 100 !important;
-}
-
-/* Post Title */
-.xoo-qv-main .product h1 {
-  text-align: center;
-  border-width: 0px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  box-shadow: 0px 0px 33px 1px #6d6d6d inset;
-}
-
-/* Price */
-.xoo-qv-main .product .price {
-  text-align: center;
-  color: #2e7c07 !important;
-}
-
-/* Paragraph */
-.xoo-qv-summary .woocommerce-product-details__short-description p {
-  text-align: center;
-  box-shadow: 0px 0px 14px 1px #000000;
-}
-
-/* Form Division */
-.xoo-qv-main .product form {
-  text-align: left;
-}
-
-/* Product meta */
-.xoo-qv-main .product .product_meta {
-  text-align: center;
-}
-
-/* Qv plink */
-.xoo-qv-main .product .xoo-qv-plink {
-  text-align: center;
-  width: 100%;
-}
-
-/* Button */
-.products .product .add_to_cart_button {
-  width: 40%;
-  margin-left: 30%;
-  padding: 7px 0;
-}
-
-/* 1260px and above screen sizes */
-@media only screen and (min-width: 1260px) {
-  /* Thumbnail Image */
-  .products .product .wp-post-image {
-    height: 295px !important;
-  }
-
-  .woocommerce-mini-cart a .wp-post-image {
-    height: 37px !important;
   }
 }
 ul.social-sidebar-icons {
@@ -980,6 +806,186 @@ aside#secondary.widget-area section#woocommerce_widget_cart-4.widget.woocommerce
   padding-top: 5px;
   cursor: pointer;
   font-size: 17px;
+}
+
+div.mods-feature-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas: ". image" "social image" ". image";
+}
+div.mods-feature-section div.social-icons {
+  grid-area: social;
+}
+div.mods-feature-section div.social-icons ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 42px 0 0 0;
+}
+div.mods-feature-section div.social-icons ul li {
+  margin: 2px 7px;
+  padding: 15px;
+  display: block;
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Pearl-Iridescence-2.jpg");
+}
+div.mods-feature-section div.social-icons ul li i.fa {
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+  box-shadow: 0px 0px 33px 7px #aac7cf;
+}
+div.mods-feature-section div.mods-feature-image {
+  grid-area: image;
+}
+
+/* Image */
+#content .mods-feature-section .mods-feature-image img {
+  width: 100%;
+  height: 250px;
+}
+
+#menu-mods-submenu {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Delphinium-min.png");
+  background-position-y: 17%;
+}
+#menu-mods-submenu li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 18px 1px #000000 inset;
+  font-size: 22px;
+  font-family: "Alex Brush", handwriting;
+  font-weight: 500;
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+}
+#menu-mods-submenu li a {
+  text-decoration: none;
+  color: black;
+}
+
+div.vape-products {
+  margin-top: 20px;
+}
+
+div.temp-image img {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+div.mods-sub-image img {
+  width: 100%;
+  height: 170px;
+}
+
+@media only screen and (min-width: 767px) {
+  /* List Item */
+  .social-icons ul li {
+    margin-left: 55px !important;
+    margin-right: 55px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  /* List */
+  .mods-feature-section .social-icons ul {
+    margin-top: 20px !important;
+  }
+
+  /* Image */
+  .mods-feature-section .mods-feature-image img {
+    margin-top: 25px;
+  }
+
+  /* Image */
+  #content .mods-sub-image img {
+    height: 300px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  .mods-feature-section .mods-feature-image img {
+    height: 358px !important;
+  }
+
+  /* Image */
+  .vape-products .temp-image img {
+    height: 157px;
+  }
+
+  /* Image */
+  #content .mods-sub-image img {
+    height: 350px;
+  }
+}
+/* 1260px and above screen sizes */
+@media only screen and (min-width: 1260px) {
+  /* Image */
+  .mods-feature-section .mods-feature-image img {
+    margin-top: 62px;
+    height: 524px !important;
+  }
+
+  /* List Item */
+  .social-icons ul li {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    height: 28px;
+    padding-left: 61px !important;
+    padding-right: 61px !important;
+    padding-top: 61px !important;
+    padding-bottom: 61px !important;
+    font-size: 35px !important;
+  }
+
+  /* Image */
+  .vape-products .temp-image img {
+    height: 200px;
+  }
+
+  /* Image */
+  #content .mods-sub-image img {
+    height: 400px;
+    margin-top: 63px;
+  }
+}
+/*================================================================ TANKS ==================================================================*/
+#menu-tanks-submenu {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-image: url("http://localhost/wordpress/wp-content/uploads/2018/10/Honey-Dew-min.png");
+  background-position-y: 17%;
+}
+#menu-tanks-submenu li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 18px 1px #000000 inset;
+  font-size: 22px;
+  font-family: "Alex Brush", handwriting;
+  font-weight: 500;
+  text-shadow: white 1px 1px 0px, #aaaaaa 2px 2px 0px;
+}
+#menu-tanks-submenu li a {
+  text-decoration: none;
+  color: black;
+}
+
+#content img.ejuice-header-image {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
 }
 
 footer {
