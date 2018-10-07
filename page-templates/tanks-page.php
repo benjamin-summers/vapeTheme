@@ -24,15 +24,15 @@
 <div class="vape-products">
     <?php echo do_shortcode( '[products limit="4" columns="4"]' ); ?>
     <div class="temp-image">
-        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/temp-mods-pic.png" alt="tempature control vaporizer">
+        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/RDA-TANKS.png" alt="tempature control vaporizer">
     </div>
     <?php echo do_shortcode( '[products limit="4" columns="4"]' ); ?>
     <div class="temp-image">
-        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/pods-mods-image.png" alt="tempature control vaporizer">
+        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/RTA-TANKS.png" alt="tempature control vaporizer">
     </div>
     <?php echo do_shortcode( '[products limit="4" columns="4"]' ); ?>
     <div class="temp-image">
-        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/mech-mods-image.png" alt="tempature control vaporizer">
+        <img src="http://localhost/wordpress/wp-content/uploads/2018/10/Clearomizers.png" alt="tempature control vaporizer">
     </div>
     <?php echo do_shortcode( '[products limit="4" columns="4"]' ); ?>
 </div>
