@@ -996,12 +996,20 @@ div.mods-sub-image img {
   display: none !important;
 }
 
+#page #content .ejuice-page .ejuice-page-content .ejuice-sidebar #secondary .widget .wp-image-184 {
+  width: 100% !important;
+}
+
+#page #content .ejuice-page .ejuice-page-content .ejuice-sidebar #secondary .widget .wp-image-185 {
+  width: 100% !important;
+}
+
 div.ejuice-page-content {
   width: 100%;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "sidebar products products";
+  grid-template-areas: "products products products" "sidebar sidebar sidebar";
 }
 div.ejuice-page-content div.ejuice-sidebar {
   grid-area: sidebar;
@@ -1010,6 +1018,33 @@ div.ejuice-page-content div.ejuice-products {
   grid-area: products;
 }
 
+@media only screen and (min-width: 768px) {
+  /* Post image */
+  #content img.ejuice-header-image {
+    height: 380px;
+  }
+}
+@media only screen and (min-width: 1260px) {
+  div.ejuice-page-content {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "sidebar products products";
+  }
+  div.ejuice-page-content div.ejuice-sidebar {
+    grid-area: sidebar;
+  }
+  div.ejuice-page-content div.ejuice-products {
+    grid-area: products;
+  }
+
+  /* Post image */
+  #content img.ejuice-header-image {
+    height: 451px;
+    margin-top: 64px;
+  }
+}
 footer {
   width: 100%;
   text-align: center;
