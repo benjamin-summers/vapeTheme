@@ -22,8 +22,6 @@ be hard for any developer with a decent amount of knowledge of WooCommerce and
 wordpress development to customize this theme further to the customers liking
  But all this theme needs in order to function is some minor tweeking
 and the enabling of a payment gateway such as paypal or stripe. 
-25% of the proceeds
-generated from the selling of this theme are donated to charity.
 
 == Installation ==
 
