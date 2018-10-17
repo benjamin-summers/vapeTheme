@@ -26,11 +26,11 @@
     <div class="temp-image">
         <img src="http://localhost/wordpress/wp-content/uploads/2018/10/temp-mods-pic.png" alt="tempature control vaporizer">
     </div>
-    <?php echo do_shortcode( '[products limit="4" columns="4"]' ); ?>
+    <?php echo do_shortcode( '[products limit="4" columns="4" category="temp"]' ); ?>
     <div class="temp-image">
         <img src="http://localhost/wordpress/wp-content/uploads/2018/10/pods-mods-image.png" alt="tempature control vaporizer">
     </div>
-    <?php echo do_shortcode( '[products limit="4" columns="4"]' ); ?>
+    <?php echo do_shortcode( '[products limit="4" columns="4"] category="pod"]' ); ?>
     <div class="temp-image">
         <img src="http://localhost/wordpress/wp-content/uploads/2018/10/mech-mods-image.png" alt="tempature control vaporizer">
     </div>
